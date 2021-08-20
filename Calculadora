@@ -1,0 +1,15 @@
+<head>
+<script type="text/javascript">
+<!--
+function Programa () {
+  var A = prompt("Inserte la Varaible A", "00");
+  var B = prompt("Inserte la Variable B", "00");
+  var C = parseInt(A) + parseInt(B);
+  alert("El resultado de la Suma entre " + A + " más " + B + " es: "+ C);
+}
+//-->
+</script>
+</head>
+<body>
+<input type="button" onclick="Programa ()" value="Realice su Suma" />
+</body>
